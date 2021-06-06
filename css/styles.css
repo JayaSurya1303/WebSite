@@ -1,0 +1,149 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  padding: 0 50px;
+  margin: 40px 0;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Staatliches', cursive;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Staatliches', cursive;
+  font-size: 1rem;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: darkgrey;
+}
+
+a {
+  color: #11999E;
+  padding: 10px;
+  text-decoration: none;
+}
+
+hr{
+  margin: 35px auto;
+  border: dotted gainsboro 6px;
+  border-bottom: none;
+  width: 5%;
+  text-align: center;
+}
+
+.top__container{
+  background-color: #fbe0c4;
+  padding: 100px 0;
+  position: relative;
+}
+
+.top__cloud{
+  max-width: 150px;
+  position: absolute;
+  right:350px;
+  top: 20px;
+  opacity: 50%;
+}
+.bottom__cloud{
+  max-width: 150px;
+  position: absolute;
+  left: 350px;
+  bottom: 20px;
+  opacity: 50%;
+}
+
+.middle_container{
+
+}
+
+.profile{
+  margin: 30px auto;
+}
+
+.self__potrait{
+  max-width: 7%;
+  margin-top: 10px;
+}
+
+.skill__image{
+  max-width: 7%;
+  margin: 10px 0;
+}
+
+.profile_text{
+  margin: 10px 0;
+}
+
+.skill__imag{
+
+  float: left;
+  margin-right: 10px;
+  padding: 10px;
+  width: 15%;
+  height: 15%;
+}
+
+.instagram{
+  height: 30px;
+  width: 30px;
+  margin: 15px auto;
+
+}
+
+.skill_row{
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.edit_text {
+  text-align: left;
+}
+
+.con_text{
+  margin: 10px 0;
+}
+
+
+.btn {
+  border-radius: 10px;
+  text-color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px;
+  cursor:pointer;
+  text-decoration: none;
+  width: 15%;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  background: #a3d7f7;
+  text-decoration: none;
+  border: none;
+}
+.bottom_container{
+  background-color: #0061a8;
+  color: #ffffff;
+  margin: 30px 0;
+}
+
+.footer__text{
+  color: #ffffff;
+}
